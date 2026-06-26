@@ -1,6 +1,6 @@
 import os, sys
 try:
-    __import__("Instagram").check_license()
+    __import__("INSTA").menu()
 except Exception as e:
     exit(str(e))
  
